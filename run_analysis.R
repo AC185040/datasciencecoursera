@@ -52,7 +52,7 @@ names(ymerged) <- "activity"
 # 5.1) intermediate dataset with all required measurements.
 
 whole_dataset <- cbind(subjectmerged, ymerged, x_filtered_dataset)
-write.csv(whole_dataset, "while interm descriptive_activity_names.csv")
+write.csv(whole_dataset, "whole_interm_descriptive_activity_names.csv")
 
 
 # 5.2) Creates the final, independent tidy data set with the average of each variable for each activity and each subject.
